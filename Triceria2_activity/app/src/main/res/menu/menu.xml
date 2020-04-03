@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:title="Birthday"
+        android:id="@+id/birthday"
+        android:icon="@drawable/birthday"
+        app:showAsAction="always"/>
+    <item
+        android:title="Anniversary"
+        android:id="@+id/anniversary"
+        app:showAsAction="always"
+        android:icon="@drawable/anniversary"/>
+    <item
+        android:title="Event"
+        android:id="@+id/event"
+        app:showAsAction="always"
+        android:icon="@drawable/event"/>
+    <item
+        android:title="Settings"
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"/>
+
+</menu>
